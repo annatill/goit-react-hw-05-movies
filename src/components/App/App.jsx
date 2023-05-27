@@ -1,19 +1,30 @@
 import React from 'react';
-import { NavLink, Route, Routes } from 'react-router-dom';
-import Home from '../../pages/Home';
+import { Route, Routes } from 'react-router-dom';
+import { lazy } from 'react';
+
+import { Layout } from 'components/Layout/Layout';
+import { Cast } from 'components/Cast/Cast';
+import { Reviews } from 'components/Reviews/Reviews';
 import { Container } from '../App/App.styled';
+
+const Home = lazy(() => import('../../pages/HomePage/Home'));
+const Movies = lazy(() => import('../../pages/Movies/Movies'));
+const MovieDetails = lazy(() =>
+  import('../../pages/MovieDetails/MovieDetails')
+);
 
 export const App = () => {
   return (
     <Container>
-      <header>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/movies">Movies</NavLink>
-      </header>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/movies" element={<div>Movies</div>} />
-        <Route path="/movies/:movieId" element={<div>Movie Details</div>} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="movies" element={<Movies />} />
+          <Route path="movies/:movieId" element={<MovieDetails />}>
+            <Route path="cast" element={<Cast />} />
+            <Route path="reviews" element={<Reviews />} />
+          </Route>
+        </Route>
       </Routes>
     </Container>
   );
