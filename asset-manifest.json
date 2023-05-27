@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-05-movies/static/css/main.e6c13ad2.css",
-    "main.js": "/goit-react-hw-05-movies/static/js/main.f79b2098.js",
+    "main.css": "/goit-react-hw-05-movies/static/css/main.8ce2f63c.css",
+    "main.js": "/goit-react-hw-05-movies/static/js/main.d17b0051.js",
+    "static/js/283.34b989f3.chunk.js": "/goit-react-hw-05-movies/static/js/283.34b989f3.chunk.js",
+    "static/css/722.08d00052.chunk.css": "/goit-react-hw-05-movies/static/css/722.08d00052.chunk.css",
+    "static/js/722.180ac7d3.chunk.js": "/goit-react-hw-05-movies/static/js/722.180ac7d3.chunk.js",
+    "static/js/257.f98bba59.chunk.js": "/goit-react-hw-05-movies/static/js/257.f98bba59.chunk.js",
+    "static/media/sample_placeholder.jpg": "/goit-react-hw-05-movies/static/media/sample_placeholder.933e85983336e5c4c901.jpg",
+    "static/media/1681549835_kartinki-pibig-info-p-zaglushka-kartinka-arti-krasivo-6.jpg": "/goit-react-hw-05-movies/static/media/1681549835_kartinki-pibig-info-p-zaglushka-kartinka-arti-krasivo-6.735bf9e0ea6ec7adbf47.jpg",
     "index.html": "/goit-react-hw-05-movies/index.html",
-    "main.e6c13ad2.css.map": "/goit-react-hw-05-movies/static/css/main.e6c13ad2.css.map",
-    "main.f79b2098.js.map": "/goit-react-hw-05-movies/static/js/main.f79b2098.js.map"
+    "main.8ce2f63c.css.map": "/goit-react-hw-05-movies/static/css/main.8ce2f63c.css.map",
+    "main.d17b0051.js.map": "/goit-react-hw-05-movies/static/js/main.d17b0051.js.map",
+    "283.34b989f3.chunk.js.map": "/goit-react-hw-05-movies/static/js/283.34b989f3.chunk.js.map",
+    "722.08d00052.chunk.css.map": "/goit-react-hw-05-movies/static/css/722.08d00052.chunk.css.map",
+    "722.180ac7d3.chunk.js.map": "/goit-react-hw-05-movies/static/js/722.180ac7d3.chunk.js.map",
+    "257.f98bba59.chunk.js.map": "/goit-react-hw-05-movies/static/js/257.f98bba59.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.f79b2098.js"
+    "static/css/main.8ce2f63c.css",
+    "static/js/main.d17b0051.js"
   ]
 }
